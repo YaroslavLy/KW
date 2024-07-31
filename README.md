@@ -1,5 +1,43 @@
 # KW
 
+
+
+________________________________________________________________________________
+#Storno part discount and advance
+
+```
+{ "commandType": 16 }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 2, "canceled": false, "count": 10, "name": "Towar-A", "price": 1, "ptu": "A", "unit": "szt" , "discount": {"name": "Narzut", "type": 1, "unit": 1, "value": 5} }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Towar-B", "price": 1, "ptu": "B", "unit": "szt" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": true, "count": 2, "name": "Towar-A", "price": 1, "ptu": "A", "unit": "szt", "indexCancel": 1 }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": true, "count": 2, "name": "Towar-A", "price": 1, "ptu": "A", "unit": "szt", "indexCancel": 1 }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 100, "payment_without_terminal": true } }
+```
+
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
+```
+
+________________________________________________________________________________
+
+
+
+
 ________________________________________________________________________________
 #Storno 
 
