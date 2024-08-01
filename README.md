@@ -1,5 +1,35 @@
 # KW
 
+________________________________________________________________________________
+#Storno packing with index
+
+```
+{ "commandType": 16 }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Towar-A", "price": 1, "ptu": "A", "unit": "szt" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandInput": { "item": { "advanceRemain": 0.0, "canceled": false, "count": 10.0, "name": "Opakowanie zwrotne", "price": 10.0, "ptu": "A", "unit": "szt." }, "type": 2 }, "commandType": 22 }
+```
+
+```
+{ "commandInput": { "item": { "advanceRemain": 0.0, "canceled": true, "count": 1.0, "name": "Opakowanie zwrotne", "price": 10.0, "ptu": "A", "unit": "szt.", "indexCancel": 2 }, "type": 2 }, "commandType": 22 }
+```
+
+```
+{ "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 1000, "payment_without_terminal": true } }
+```
+
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
+```
+
+________________________________________________________________________________
+
+
 
 ________________________________________________________________________________
 #Storno packing < 0 
