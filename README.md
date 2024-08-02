@@ -1,5 +1,14 @@
 # KW
 
+
+________________________________________________________________________________
+#System Block Storno
+
+```
+{"commandType":30,"commandInput":{"1":{"commandType":16},"2":{"commandInput":{"item":{"advanceRemain":0,"canceled":false,"count":2,"name":"Towar-A","price":1,"ptu":"A","unit":"szt"},"type":1},"commandType":22,"print":true,"returnModel":false,"returnPDF":false},"3":{"commandInput":{"item":{"advanceRemain":0,"canceled":true,"count":1,"name":"Towar-A","price":1,"ptu":"A","unit":"szt","indexCancel":1},"type":1},"commandType":22,"print":true,"returnModel":false,"returnPDF":false},"4":{"commandInput":{"item":{"advanceRemain":0,"canceled":false,"count":1,"name":"Towar-A","price":1,"ptu":"A","unit":"szt"},"type":1},"commandType":22,"print":true,"returnModel":false,"returnPDF":false},"5":{"commandInput":{"name":"paymentName","payment_type":1,"value":900,"payment_without_terminal":true},"commandType":24},"6":{"commandInput":{"canceled":false},"commandType":26,"print":true,"returnPDF":false,"returnQR":true}}}
+```
+________________________________________________________________________________
+
 ________________________________________________________________________________
 #System Block
 
