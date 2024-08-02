@@ -2,6 +2,33 @@
 
 
 ________________________________________________________________________________
+#receip with discount 
+
+```
+{ "commandType": 16 }
+```
+
+```
+{ "commandType": 22, "commandInput": { "item": { "advanceRemain": 0, "canceled": false, "count": 1, "name": "Towar-A", "price": 60, "ptu": "A", "unit": "szt" }, "type": 1 }, "print": true, "returnModel": false, "returnPDF": false }
+```
+
+```
+{ "commandType": 25, "commandInput": { "name": "Opust do podsumy", "discount_type": 0, "discount_unit": 0, "value": 50 } }
+```
+
+```
+{ "commandType": 24, "commandInput": { "name": "paymentName", "payment_type": 1, "value": 1000, "payment_without_terminal": true } }
+```
+
+```
+{ "commandType": 26, "commandInput": { "canceled": false }, "print": true, "returnPDF": false, "returnQR": true }
+```
+
+________________________________________________________________________________
+
+
+
+________________________________________________________________________________
 #System Block Storno
 
 ```
