@@ -13,7 +13,7 @@ ________________________________________________________________________________
 ```
 
 ```
-{ "commandType": 24, "commandInput": { "payment_type": 3, "value": 15.0, "currency_converter": 4.1, "currency": "EUR", "is_from_registration_currency_conversion": false, "is_informative_conversion": false, "name": "paymentNameEUR", "payment_without_terminal": true } }
+{ "commandType": 24, "commandInput": { "payment_type": 3, "value": 15.0, "currency_converter": 4.1, "currency": "USD", "is_from_registration_currency_conversion": false, "is_informative_conversion": false, "name": "paymentNameEUR", "payment_without_terminal": true } }
 ```
 
 ```
