@@ -19,11 +19,6 @@ ________________________________________________________________________________
 {"commandType":26,"commandInput":{"canceled":false,"currency_rest":"USD","currency_converter":4,"is_from_registration_currency_conversion":true},"print":true,"returnPDF":false,"returnQR":true}
 ```
 
-
-```
-{ "commandType": 16 }
-```
-
 ________________________________________________________________________________
 #receipt "zerowy"
 
