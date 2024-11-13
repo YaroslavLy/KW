@@ -1,5 +1,28 @@
 # KW
 
+
+________________________________________________________________________________
+#receipt with rest in currency and payment currency
+
+```
+{ "commandType": 16 }
+```
+
+```
+{ "commandInput": { "item": { "advanceRemain": 0.0, "canceled": false, "count": 1.0, "name": "Towar-A", "price": 10.0, "ptu": "A", "unit": "szt." }, "type": 1 }, "commandType": 22 }
+```
+
+```
+{ "commandType": 24, "commandInput": { "payment_type": 3, "value": 15.0, "currency_converter": 4.1, "currency": "EUR", "is_from_registration_currency_conversion": false, "is_informative_conversion": false, "name": "paymentNameEUR", "payment_without_terminal": true } }
+```
+
+```
+{"commandType":26,"commandInput":{"canceled":false,"currency_rest":"USD","currency_converter":4,"is_from_registration_currency_conversion":false},"print":true,"returnPDF":false,"returnQR":true}
+```
+
+
+
+
 ________________________________________________________________________________
 #receipt with rest in currency
 
